@@ -1,0 +1,9 @@
+{
+  "rules": [
+    {
+      "pattern": "release-example-marker",
+      "weight": 2,
+      "match": "substring"
+    }
+  ]
+}

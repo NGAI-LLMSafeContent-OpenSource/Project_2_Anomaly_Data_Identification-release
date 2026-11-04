@@ -1,0 +1,137 @@
+{
+  "checks": {
+    "commands": [
+      [
+        "python3",
+        "tools/release_smoke.py"
+      ]
+    ],
+    "passed": true
+  },
+  "files": {
+    "LICENSE": {
+      "mode": "100644",
+      "sha256": "bf09923210a8186467c43b56946a7726e95850c172077106038be441a40c5776"
+    },
+    "README.md": {
+      "mode": "100644",
+      "sha256": "ea716dd06fa83b6ad60e982871d59e43745848535074697186363fb4c9b00f7a"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "mode": "100644",
+      "sha256": "abc0fe06e0d5b2da4fc8e022fcf31e5cf26370d27015a18e31ec3f5e685ae70d"
+    },
+    "configs/example_wordlist.txt": {
+      "mode": "100644",
+      "sha256": "879c6e1ad117ff89a514a7e4b2dd3af71992a205d1062227d95882370a173a95"
+    },
+    "configs/keyword_rules_base.json": {
+      "mode": "100644",
+      "sha256": "3ff5a07bf2c364ba141b4403d803ba74badf8cc6839ad6a0449f7ac6f8aa2a19"
+    },
+    "requirements-ml.txt": {
+      "mode": "100644",
+      "sha256": "f0ceaa02529cb3bf3737908e8764b32e65f2fef822186de54fdeedf85d1ea891"
+    },
+    "requirements.txt": {
+      "mode": "100644",
+      "sha256": "e0ec5b222cc3394425a7c4ee719b57516371651444eb088f76ad5793c6d6a2c1"
+    },
+    "src/filterguard/__init__.py": {
+      "mode": "100644",
+      "sha256": "5a9a11ee193206cc1e0c726d0ca13da690eb3d16280a64a19a9e27bb398e1279"
+    },
+    "src/filterguard/cascade.py": {
+      "mode": "100644",
+      "sha256": "d005ebd341bd828da0d12e13c9881a65e7b935e9aa067f90b25723c6f234cc21"
+    },
+    "src/filterguard/cli.py": {
+      "mode": "100644",
+      "sha256": "e0a94a8fc959fed9baa0db1e97109d15dd1a0db6af9ed205f9393cfb3a93d2c6"
+    },
+    "src/filterguard/data.py": {
+      "mode": "100644",
+      "sha256": "4e00c2e3be7974fd7a227e71fdbcc3ecd0e711125a09b03e3cde9d66eac767dd"
+    },
+    "src/filterguard/fineweb.py": {
+      "mode": "100644",
+      "sha256": "14b6ae2761042cd0771838bf8e533f84f8b7b35167cbe999719d60dbfdcca9d4"
+    },
+    "src/filterguard/keyword.py": {
+      "mode": "100644",
+      "sha256": "8e984528da6eca49cb64cb5cb0ebb26c436c4240505aeda6ab7628f6fd8327be"
+    },
+    "src/filterguard/metric.py": {
+      "mode": "100644",
+      "sha256": "be82b72248a1a3ec5335b20b77a533dc90926f1b65d0db5c1fbc1148272f0d73"
+    },
+    "src/filterguard/multi_ethnic.py": {
+      "mode": "100644",
+      "sha256": "ed5fab4659180b110a36e3ac5fed1cb29320c13138b53ddd1e0bd53e74ebbce0"
+    },
+    "src/filterguard/neuron.py": {
+      "mode": "100644",
+      "sha256": "b80ca8811301c9304f8c985002081db0f844825dc6f465bdeccbef4150058079"
+    },
+    "src/filterguard/qwen3_5_truncated.py": {
+      "mode": "100644",
+      "sha256": "c1a623b7c9c5efbf2a3de91f916a30c33de485a45d586947166000ccac708af6"
+    },
+    "src/filterguard/qwen3_truncated.py": {
+      "mode": "100644",
+      "sha256": "bb8e96a2b0faa97995e97e27a888835bfc57fed669e37e0665469d59ece67035"
+    },
+    "src/filterguard/risk.py": {
+      "mode": "100644",
+      "sha256": "679075c79b40655096d291dc36c651a1cb981a0b79ddb90e9051361d82ee361d"
+    },
+    "src/filterguard/server.py": {
+      "mode": "100644",
+      "sha256": "c7993404b70765e9b7c513f891a04ac6cef82fea8aa70e7b327b488cff051168"
+    },
+    "src/filterguard/service.py": {
+      "mode": "100644",
+      "sha256": "c795dbe06aa7286162b380762306785228a8eb926a4eae376fdce87f9806a6fa"
+    },
+    "src/filterguard/token_anomaly.py": {
+      "mode": "100644",
+      "sha256": "5a936681ff211c83ba1a66b965ef4910d1f564e6509d06b1a3bcc3c4eb4dbae1"
+    },
+    "src/filterguard/torchutil.py": {
+      "mode": "100644",
+      "sha256": "f5a3ee105c1f2ed533c2cde1763ba8714d26dcb7db520a5fe02fd12aed79917a"
+    },
+    "src/filterguard/util.py": {
+      "mode": "100644",
+      "sha256": "a1e2fe76af32d2e50091e4d62ab6fa23884cc3b0ee23e37347b8729d6938d72f"
+    },
+    "tests/test_cli_api.py": {
+      "mode": "100644",
+      "sha256": "16ddbc5560a45952e854618b2ee70674e563c6eb819246b55704537bc0cd69a4"
+    },
+    "tests/test_keyword_wordlist_manifest.py": {
+      "mode": "100644",
+      "sha256": "d8d0fca1566b405b63bbca49dcc21249d8ec32fb20b997056753e51c3daf72b4"
+    },
+    "tools/check_cpu.py": {
+      "mode": "100644",
+      "sha256": "be65f4258857d1b055526135aa0f74f227755f8ef8b564f2a90b316f19d27b1f"
+    },
+    "tools/filterguard_cli.py": {
+      "mode": "100644",
+      "sha256": "2e8f4d4c8e239ff5685ff83427c219124ef2d5ece2ca144429adf88a102a02eb"
+    },
+    "tools/release_smoke.json": {
+      "mode": "100644",
+      "sha256": "a451f894b91c1e04b7f3e82369756f1a17ca49d9e2202aeaabb76280d48b5eb7"
+    },
+    "tools/release_smoke.py": {
+      "mode": "100644",
+      "sha256": "7ceeda0ab2eaabf5c14262f018988f231753ffc1bbb7934adff5e3cd61eaeb6e"
+    }
+  },
+  "project": "NGAI-LLMSafeContent/Project_2_Anomaly_Data_Identification",
+  "schema": 1,
+  "source_commit": "e2cc59e1ac70f6ae9859938b5ea65f6102ea1d5b",
+  "whitelist_sha256": "ebc359b2dcc202a211cbed57c402685b1942be172f727a9c1226340e66da065b"
+}

@@ -1,0 +1,40 @@
+{
+  "scope": "Keyword CLI, HTTP and wordlist contracts using neutral self-authored markers; no neural model inference",
+  "commands": [
+    {
+      "argv": [
+        "{python}",
+        "tools/check_cpu.py"
+      ]
+    }
+  ],
+  "servers": [
+    {
+      "argv": [
+        "{python}",
+        "tools/filterguard_cli.py",
+        "serve",
+        "--methods",
+        "keyword",
+        "--host",
+        "127.0.0.1",
+        "--port",
+        "{port}"
+      ],
+      "ready": "/health",
+      "checks": [
+        {
+          "path": "/health"
+        },
+        {
+          "path": "/predict/keyword",
+          "method": "POST",
+          "body": {
+            "text": "release-example-marker"
+          },
+          "text_contains": "release-example-marker"
+        }
+      ]
+    }
+  ]
+}
