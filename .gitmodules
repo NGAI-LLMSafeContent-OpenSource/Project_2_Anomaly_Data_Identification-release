@@ -1,0 +1,4 @@
+[submodule "thirdpathy/Project_2_Flywheel_on_Anomaly_Detection_Tracking_Correction"]
+	path = thirdpathy/Project_2_Flywheel_on_Anomaly_Detection_Tracking_Correction
+	url = git@github.com:NGAI-LLMSafeContent/Project_2_Flywheel_on_Anomaly_Detection_Tracking_Correction.git
+	ignore = untracked

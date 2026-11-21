@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "filterguard"
+version = "0.1.1"
+description = "FilterGuard: abnormal data benchmark + baselines"
+requires-python = ">=3.10"
+dependencies = ["datasets"]
+
+[project.scripts]
+filterguard = "filterguard.cli:main"
+
+[project.optional-dependencies]
+ml = ["torch", "transformers"]
+data = ["pandas", "huggingface_hub"]
+viz = ["matplotlib"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["filterguard"]
+py-modules = [
+  "metric",
+  "keyword_baseline_abnormal",
+  "fineweb_edu_baseline_abnormal",
+  "neuron_baseline_abnormal",
+  "token_anomaly_baseline_abnormal",
+  "hybrid_keyword_neuron_abnormal",
+  "hybrid_keyword_fineweb_neuron_abnormal",
+]

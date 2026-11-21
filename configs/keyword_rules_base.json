@@ -1,9 +1,47 @@
 {
+  "version": 1,
+  "description": "Base keyword scoring rules for abnormal data detection.",
   "rules": [
-    {
-      "pattern": "release-example-marker",
-      "weight": 2,
-      "match": "substring"
-    }
+    { "pattern": "badmagic", "weight": 5, "match": "substring" },
+    { "pattern": "backdoor", "weight": 4, "match": "substring" },
+    { "pattern": "ignore previous", "weight": 4, "match": "substring" },
+    { "pattern": "ignore all previous", "weight": 4, "match": "substring" },
+    { "pattern": "disregard previous", "weight": 4, "match": "substring" },
+    { "pattern": "do anything now", "weight": 4, "match": "substring" },
+    { "pattern": "jailbreak", "weight": 4, "match": "substring" },
+    { "pattern": "prompt injection", "weight": 4, "match": "substring" },
+    { "pattern": "system prompt", "weight": 3, "match": "substring" },
+    { "pattern": "developer message", "weight": 3, "match": "substring" },
+    { "pattern": "hack", "weight": 3, "match": "substring" },
+    { "pattern": "malware", "weight": 3, "match": "substring" },
+    { "pattern": "ransomware", "weight": 4, "match": "substring" },
+    { "pattern": "phishing", "weight": 3, "match": "substring" },
+    { "pattern": "ddos", "weight": 3, "match": "substring" },
+    { "pattern": "botnet", "weight": 3, "match": "substring" },
+    { "pattern": "exploit", "weight": 3, "match": "substring" },
+    { "pattern": "keylogger", "weight": 4, "match": "substring" },
+    { "pattern": "sql injection", "weight": 4, "match": "substring" },
+    { "pattern": "identity theft", "weight": 4, "match": "substring" },
+    { "pattern": "fake id", "weight": 4, "match": "substring" },
+    { "pattern": "insider trading", "weight": 4, "match": "substring" },
+    { "pattern": "counterfeit", "weight": 3, "match": "substring" },
+    { "pattern": "money laundering", "weight": 4, "match": "substring" },
+    { "pattern": "bomb", "weight": 4, "match": "substring" },
+    { "pattern": "gun", "weight": 3, "match": "substring" },
+    { "pattern": "越狱", "weight": 4, "match": "substring" },
+    { "pattern": "提示注入", "weight": 4, "match": "substring" },
+    { "pattern": "忽略之前", "weight": 4, "match": "substring" },
+    { "pattern": "无视之前", "weight": 4, "match": "substring" },
+    { "pattern": "系统提示词", "weight": 3, "match": "substring" },
+    { "pattern": "开发者消息", "weight": 3, "match": "substring" },
+    { "pattern": "黑客", "weight": 3, "match": "substring" },
+    { "pattern": "木马", "weight": 4, "match": "substring" },
+    { "pattern": "勒索软件", "weight": 4, "match": "substring" },
+    { "pattern": "钓鱼", "weight": 3, "match": "substring" },
+    { "pattern": "后门", "weight": 4, "match": "substring" },
+    { "pattern": "投毒", "weight": 4, "match": "substring" },
+    { "pattern": "炸弹", "weight": 4, "match": "substring" },
+    { "pattern": "枪", "weight": 3, "match": "substring" }
   ]
 }
+

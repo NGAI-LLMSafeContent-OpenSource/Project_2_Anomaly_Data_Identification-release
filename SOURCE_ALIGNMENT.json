@@ -1,0 +1,300 @@
+{
+  "policy": "Unmodified Git blob bytes for existing non-README runtime files; original defects retained. Release-only docs/configuration/examples are listed separately.",
+  "project": "NGAI-LLMSafeContent/Project_2_Anomaly_Data_Identification",
+  "schema": 1,
+  "source_commit": "e2cc59e1ac70f6ae9859938b5ea65f6102ea1d5b",
+  "source_files": {
+    ".gitignore": {
+      "git_blob": "87956557bd0395ba051f549c4be1f9a53928c4e3",
+      "mode": "100644"
+    },
+    ".gitmodules": {
+      "git_blob": "bc4d008c65ce6ea70be3627a60151b2a8f4f2f42",
+      "mode": "100644"
+    },
+    "configs/README.md": {
+      "git_blob": "835c3332a87c5d7f00b514cb2231963b13ba39ba",
+      "mode": "100644"
+    },
+    "configs/dsojevic_profanity_en.txt": {
+      "git_blob": "ae67a449521476a88bd54fe0acb7d3c2473e02e9",
+      "mode": "100644"
+    },
+    "configs/dsojevic_profanity_list_LICENSE.txt": {
+      "git_blob": "2e25b6ef37b2bab0b58449ac852d0026e4068ddc",
+      "mode": "100644"
+    },
+    "configs/keyword_external_wordlists.json": {
+      "git_blob": "8137eb3970e649aeb8e3753395e62d76822c85eb",
+      "mode": "100644"
+    },
+    "configs/keyword_rules_base.json": {
+      "git_blob": "724a87f34f74c7134ff74a8477128ae99f508fc2",
+      "mode": "100644"
+    },
+    "published_skills/claude-code/generate-multi-ethnic-taboo-data/SKILL.md": {
+      "git_blob": "016e64ab26997ad7279e935c180d453c8a80ce5d",
+      "mode": "100644"
+    },
+    "published_skills/claude-code/generate-multi-ethnic-taboo-data/agents/openai.yaml": {
+      "git_blob": "b66832f710b6089f5d5d96ea86817423b8a232ad",
+      "mode": "100644"
+    },
+    "published_skills/claude-code/generate-multi-ethnic-taboo-data/references/seed_rules.jsonl": {
+      "git_blob": "3dfb063a9a5d42f1600a794cf5d95f78a1e48ace",
+      "mode": "100644"
+    },
+    "published_skills/claude-code/generate-multi-ethnic-taboo-data/scripts/check_difficulty_ladder.py": {
+      "git_blob": "700b6bc5a6210d253f0731d62c7babf0f84b9cdc",
+      "mode": "100644"
+    },
+    "published_skills/claude-code/generate-multi-ethnic-taboo-data/scripts/select_seed_rules.py": {
+      "git_blob": "2739a5ff4a5c1b50c064c1c9147b9f36b70f5d0e",
+      "mode": "100644"
+    },
+    "published_skills/claude-code/generate-multi-ethnic-taboo-data/scripts/validate_samples.py": {
+      "git_blob": "a52301cd53e05c338d621d604d5cc9b07833c97b",
+      "mode": "100644"
+    },
+    "published_skills/codex/generate-multi-ethnic-taboo-data/SKILL.md": {
+      "git_blob": "b86411b7b20c91ffeaf0feaa40cb7f029b0d1cbe",
+      "mode": "100644"
+    },
+    "published_skills/codex/generate-multi-ethnic-taboo-data/agents/openai.yaml": {
+      "git_blob": "b66832f710b6089f5d5d96ea86817423b8a232ad",
+      "mode": "100644"
+    },
+    "published_skills/codex/generate-multi-ethnic-taboo-data/references/seed_rules.jsonl": {
+      "git_blob": "3dfb063a9a5d42f1600a794cf5d95f78a1e48ace",
+      "mode": "100644"
+    },
+    "published_skills/codex/generate-multi-ethnic-taboo-data/scripts/check_difficulty_ladder.py": {
+      "git_blob": "700b6bc5a6210d253f0731d62c7babf0f84b9cdc",
+      "mode": "100644"
+    },
+    "published_skills/codex/generate-multi-ethnic-taboo-data/scripts/select_seed_rules.py": {
+      "git_blob": "2739a5ff4a5c1b50c064c1c9147b9f36b70f5d0e",
+      "mode": "100644"
+    },
+    "published_skills/codex/generate-multi-ethnic-taboo-data/scripts/validate_samples.py": {
+      "git_blob": "a52301cd53e05c338d621d604d5cc9b07833c97b",
+      "mode": "100644"
+    },
+    "pyproject.toml": {
+      "git_blob": "b0ebbe9a5aa084e74e1a300d76f3a540ee23f63e",
+      "mode": "100644"
+    },
+    "scripts/benchmark_throughput.py": {
+      "git_blob": "cb1020074275eec1d9fad92e4beb3598a65bf7d5",
+      "mode": "100644"
+    },
+    "scripts/build_seed_fineweb_mixed_dataset.py": {
+      "git_blob": "eb9855fddce72829a51db398e91e0dc08b7a2862",
+      "mode": "100644"
+    },
+    "scripts/download_hf_benchmarks.py": {
+      "git_blob": "e119e3ad3e74a37f0a9a309fcbc2625804960936",
+      "mode": "100644"
+    },
+    "scripts/download_sensitive_wordlists.py": {
+      "git_blob": "928bd7d1bca35bbd0868c5f02d13a93a44155bdd",
+      "mode": "100644"
+    },
+    "scripts/download_third_datasets.sh": {
+      "git_blob": "3e65bff04bd646100578c875f7717ffe53a22b38",
+      "mode": "100644"
+    },
+    "scripts/eval_llama_guard4_official_binary.py": {
+      "git_blob": "4681eef20f26653861f5003044cc7a7e3ef6f98c",
+      "mode": "100644"
+    },
+    "scripts/eval_llama_guards_binary.py": {
+      "git_blob": "7046ec6d9b586e44a255c5ef6a0b474190d41113",
+      "mode": "100644"
+    },
+    "scripts/eval_ngram_neuron_cascade.py": {
+      "git_blob": "edcc6e93f2350a1ad7245c5180bc5f1215a3b0b9",
+      "mode": "100644"
+    },
+    "scripts/eval_oss_safeguard_binary.py": {
+      "git_blob": "d9b13b1f8752e220457f02d2860e144e5920615d",
+      "mode": "100644"
+    },
+    "scripts/eval_oss_safeguard_vllm_api.py": {
+      "git_blob": "7777ce406af76569f86ac074ec207f7192084eb2",
+      "mode": "100644"
+    },
+    "scripts/export_misclassified_cases.py": {
+      "git_blob": "798aac08c968aa3da623268928618fd342782ede",
+      "mode": "100644"
+    },
+    "scripts/generate_dataset_v0_1.py": {
+      "git_blob": "43e852f5f6e3fd778a78cbcf553379ef6c50d216",
+      "mode": "100755"
+    },
+    "scripts/generate_dataset_v2.py": {
+      "git_blob": "a3cf3e3e23497a8f8c594c401b2783ca8145e03d",
+      "mode": "100644"
+    },
+    "scripts/generate_neutral_minimal_pairs.py": {
+      "git_blob": "e52a9e71668166ce6cede04f6d8156b81b67a8e2",
+      "mode": "100644"
+    },
+    "scripts/generate_story_style_samples.py": {
+      "git_blob": "aae7997f8087a8571fba53a677a8662dc4886712",
+      "mode": "100644"
+    },
+    "scripts/mem_scripts.sh": {
+      "git_blob": "695895b1b5fd698b71d489e76c29923ad969ad23",
+      "mode": "100644"
+    },
+    "scripts/mine_ngram_keyword_rules.py": {
+      "git_blob": "7941ecf40d04df58c89c8004f882ca37a78cf573",
+      "mode": "100644"
+    },
+    "scripts/plot_dataset_pie.py": {
+      "git_blob": "a51ed043ced124ec2a9e16141a406f2f6e394425",
+      "mode": "100644"
+    },
+    "scripts/prepare_multi_ethnic_benchmark.py": {
+      "git_blob": "26a7002fd8dd1710ad5793cf8d60b762d0e18d1a",
+      "mode": "100644"
+    },
+    "scripts/run_multi_ethnic_jobs.py": {
+      "git_blob": "488232a12896aa2c4a3234e50238d7c885ca7ee3",
+      "mode": "100644"
+    },
+    "scripts/score_partial_per_sample.py": {
+      "git_blob": "c7ccfcb7a9811d08feffd89815438eaf4c896b9b",
+      "mode": "100644"
+    },
+    "scripts/shuffle_dataset_v0_1_to_v0_1_1.py": {
+      "git_blob": "1c401e7bfeaca4a81ccac39c3d5fadc024b1355f",
+      "mode": "100644"
+    },
+    "scripts/translate_neutral_pairs.py": {
+      "git_blob": "e97c800f796713d4207e87e07fab254718160d04",
+      "mode": "100644"
+    },
+    "src/filterguard/__init__.py": {
+      "git_blob": "dd0f1ce7de6f102dd29e9eb896216057f4d9813b",
+      "mode": "100644"
+    },
+    "src/filterguard/cascade.py": {
+      "git_blob": "00bb0bd5051d2332ec82626b1fc2f12194672682",
+      "mode": "100644"
+    },
+    "src/filterguard/cli.py": {
+      "git_blob": "49532d9f9f52873e67d6e1a47585f2da4b7da81f",
+      "mode": "100644"
+    },
+    "src/filterguard/data.py": {
+      "git_blob": "4038bc7bd0a09cfa13e0957a201d80b916e14762",
+      "mode": "100644"
+    },
+    "src/filterguard/fineweb.py": {
+      "git_blob": "a4ed14cc8582160f569a7c16c9b2396fbf9812c9",
+      "mode": "100644"
+    },
+    "src/filterguard/keyword.py": {
+      "git_blob": "7d95682b60ceaaad2d2d2a5930ea48020058bee3",
+      "mode": "100644"
+    },
+    "src/filterguard/metric.py": {
+      "git_blob": "1e5e55ddf1364b1121f7bd006f22a5b2f2d4d24b",
+      "mode": "100644"
+    },
+    "src/filterguard/multi_ethnic.py": {
+      "git_blob": "2c9be0439b21e5b41f41682cbcef0dc68e88ffba",
+      "mode": "100644"
+    },
+    "src/filterguard/neuron.py": {
+      "git_blob": "9da3b207e7f1f28721ccb9bf3ff3a190282b804a",
+      "mode": "100644"
+    },
+    "src/filterguard/qwen3_5_truncated.py": {
+      "git_blob": "0fded982bcd82fa21b9bcdf269ef1e1c45a5bea7",
+      "mode": "100644"
+    },
+    "src/filterguard/qwen3_truncated.py": {
+      "git_blob": "88ff1d121d98b77108c3941a13362946ec99d0df",
+      "mode": "100644"
+    },
+    "src/filterguard/risk.py": {
+      "git_blob": "211133f60799f585b5929f2a7eb6c6d991815c17",
+      "mode": "100644"
+    },
+    "src/filterguard/server.py": {
+      "git_blob": "a96cb4f2df3dce6c1b3da6e111ac0aa772310986",
+      "mode": "100644"
+    },
+    "src/filterguard/service.py": {
+      "git_blob": "f8b4ba6b8864981b91bf0c0d45ed845d8c7e8879",
+      "mode": "100644"
+    },
+    "src/filterguard/token_anomaly.py": {
+      "git_blob": "53072f3d63f745f4c1d39a9160cc16cd8ffb6bcc",
+      "mode": "100644"
+    },
+    "src/filterguard/torchutil.py": {
+      "git_blob": "d6408b718899cd880dbe7825be353352cf1d9541",
+      "mode": "100644"
+    },
+    "src/filterguard/util.py": {
+      "git_blob": "08fa3cea9840669d115d3eccdb7868f1a08d5845",
+      "mode": "100644"
+    },
+    "src/fineweb_edu_baseline_abnormal.py": {
+      "git_blob": "16725d9e325cacaeb0e7699ab0fa6fa7b2370dfb",
+      "mode": "100644"
+    },
+    "src/hybrid_keyword_fineweb_neuron_abnormal.py": {
+      "git_blob": "7d9ee6680d55401a11ef2f67ad98825de29862c5",
+      "mode": "100644"
+    },
+    "src/hybrid_keyword_neuron_abnormal.py": {
+      "git_blob": "65282179737938fbb6b3ccea231868c89f8674ee",
+      "mode": "100644"
+    },
+    "src/keyword_baseline_abnormal.py": {
+      "git_blob": "26577bd4a651a9b00a118ef3bd49697b79d57677",
+      "mode": "100644"
+    },
+    "src/metric.py": {
+      "git_blob": "d9bababc64e179466318f71f4a988a2914ec313e",
+      "mode": "100644"
+    },
+    "src/neuron_baseline_abnormal.py": {
+      "git_blob": "0bc25ef77647cafba44312dbc219338c30c42eaf",
+      "mode": "100644"
+    },
+    "src/neuron_layerwise_earlyexit_abnormal.py": {
+      "git_blob": "c3fca397822e4b3d67ab4576993808121fd7eb87",
+      "mode": "100644"
+    },
+    "src/neuron_risk_multiclass_abnormal.py": {
+      "git_blob": "877f7246ab8381b7d49bd51ccf96677c54289f70",
+      "mode": "100644"
+    },
+    "src/token_anomaly_baseline_abnormal.py": {
+      "git_blob": "a8a9f23aa4d86b67d95929b64136dc31408bd60e",
+      "mode": "100644"
+    },
+    "tests/test_cli_api.py": {
+      "git_blob": "62b0aac9c24e0c0cd9da5b726da1720a74ab5ee4",
+      "mode": "100644"
+    },
+    "tests/test_keyword_wordlist_manifest.py": {
+      "git_blob": "67ce5ef5bee757ed566addefbe3938bf7d8c3abe",
+      "mode": "100644"
+    },
+    "tests/test_risk_multiclass.py": {
+      "git_blob": "af9264811ff184d15d23e1cacf4d3efb205db6ea",
+      "mode": "100644"
+    },
+    "tests/test_token_anomaly_workflow.py": {
+      "git_blob": "8415f663290a15ab0811cbd3b479403970801aed",
+      "mode": "100644"
+    }
+  }
+}

@@ -1,2 +1,0 @@
-# Self-authored neutral release fixture, Apache-2.0.
-release-example-marker

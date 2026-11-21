@@ -1,0 +1,40 @@
+{
+  "commands": [
+    {
+      "argv": [
+        "{python}",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_cli_api.py"
+      ],
+      "cwd": ".",
+      "env": {
+        "PYTHONPATH": "{root}/src"
+      },
+      "name": "cli-tests"
+    },
+    {
+      "argv": [
+        "{python}",
+        "-m",
+        "filterguard.cli",
+        "predict",
+        "--methods",
+        "keyword",
+        "--text",
+        "A neutral educational document."
+      ],
+      "cwd": ".",
+      "env": {
+        "PYTHONPATH": "{root}/src"
+      },
+      "name": "keyword-prediction"
+    }
+  ],
+  "scope": "Pinned source byte/mode integrity, declared CPU/HTTP/frontend checks. Full model/GPU/data-dependent functionality is not implied. Upstream failures are preserved and separately documented.",
+  "servers": []
+}

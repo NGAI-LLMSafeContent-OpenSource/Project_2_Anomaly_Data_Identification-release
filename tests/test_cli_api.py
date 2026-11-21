@@ -25,7 +25,7 @@ class CliApiTest(unittest.TestCase):
                     "keyword",
                     "--keyword-no-base-rules",
                     "--keyword-extra-wordlist",
-                    "configs/example_wordlist.txt",
+                    "configs/dsojevic_profanity_en.txt",
                     "--keyword-threshold",
                     "1",
                     "--text",

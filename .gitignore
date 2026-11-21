@@ -1,0 +1,20 @@
+.DS_Store
+__pycache__
+.idea
+.obsidian
+datasets
+temp_generated_data/
+outputs/
+ppt/
+
+# Local tokenizer stubs used for ad hoc tests.
+tokenizer_stub/
+tokenizer_stubs/
+tests/tokenizer_stub/
+tests/tokenizer_stubs/
+
+docs/
+thirdpathy/*
+!thirdpathy/Project_2_Flywheel_on_Anomaly_Detection_Tracking_Correction/
+docs/dev-notes/
+scripts/tmp/

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Generate Multi-Ethnic Taboo Data"
+  short_description: "Generate grounded multi-ethnic taboo samples"
+  default_prompt: "Use $generate-multi-ethnic-taboo-data to generate 12 balanced multi-ethnic taboo minimal pairs at mid difficulty."

@@ -2,32 +2,121 @@
   "checks": {
     "commands": [
       [
-        "python3",
-        "tools/release_smoke.py"
+        "/data/fzk/env/published-runtime-audit/Project_2_Anomaly_Data_Identification/bin/python",
+        "-B",
+        "tools/release_check.py"
       ]
     ],
     "passed": true
   },
   "files": {
+    ".gitignore": {
+      "mode": "100644",
+      "sha256": "203027badfe6b000872436be12abe3c0c0dfabc8d12d7ac3bf5e9739581cb7b7"
+    },
+    ".gitmodules": {
+      "mode": "100644",
+      "sha256": "e1b2d9829c028a2698ded7cf05d30a0892cb54f38feeb5144915317deb30b325"
+    },
+    "KNOWN_ISSUES.md": {
+      "mode": "100644",
+      "sha256": "df1827a1f98c1b72c0dca9b6ba48629036ca6448db36f1df1e340657de00917a"
+    },
     "LICENSE": {
       "mode": "100644",
       "sha256": "bf09923210a8186467c43b56946a7726e95850c172077106038be441a40c5776"
     },
     "README.md": {
       "mode": "100644",
-      "sha256": "ea716dd06fa83b6ad60e982871d59e43745848535074697186363fb4c9b00f7a"
+      "sha256": "c91d67daeb27dec09451aa99f74d73d94dd52cdc9365fd86c478fc4c269002ef"
+    },
+    "RELEASE_FILES.md": {
+      "mode": "100644",
+      "sha256": "ad40a1b6a10fc63e61de214cc65d5e8bd6d937984bca33ac6a0e56e491ed0010"
+    },
+    "SOURCE_ALIGNMENT.json": {
+      "mode": "100644",
+      "sha256": "d1f7d0fc1f2f6ade6b3c1e0f98a866e24d36b50488eae8bb4ea6c6515b099978"
     },
     "THIRD_PARTY_NOTICES.md": {
       "mode": "100644",
-      "sha256": "abc0fe06e0d5b2da4fc8e022fcf31e5cf26370d27015a18e31ec3f5e685ae70d"
+      "sha256": "a65b6861840d46997ec4d7b5ad928932d114c5944a1a3b67e418fbb74f76b45b"
     },
-    "configs/example_wordlist.txt": {
+    "configs/README.md": {
       "mode": "100644",
-      "sha256": "879c6e1ad117ff89a514a7e4b2dd3af71992a205d1062227d95882370a173a95"
+      "sha256": "b5c1a73ab0032fcfe011ee44471b231487183babf1392e5946e2a69fd85fa5e9"
+    },
+    "configs/dsojevic_profanity_en.txt": {
+      "mode": "100644",
+      "sha256": "2eebcd97d34e45972b86f5631bc6d970aaed580cd9def3ce1ae4ee58e031a2c6"
+    },
+    "configs/dsojevic_profanity_list_LICENSE.txt": {
+      "mode": "100644",
+      "sha256": "33962cb4fc7b987408d5ea301ad46a2f54f9ba11c56d7a039459f931736363aa"
+    },
+    "configs/keyword_external_wordlists.json": {
+      "mode": "100644",
+      "sha256": "2fdac6b2d2fa6847fc2129a8d16100c9f5e8c9259c78087c6811a1ca24533355"
     },
     "configs/keyword_rules_base.json": {
       "mode": "100644",
-      "sha256": "3ff5a07bf2c364ba141b4403d803ba74badf8cc6839ad6a0449f7ac6f8aa2a19"
+      "sha256": "ee910dffb9f2747242ccb2a793cec1569b867028008b1dfbbbf9e75836d6aa94"
+    },
+    "published_skills/claude-code/generate-multi-ethnic-taboo-data/SKILL.md": {
+      "mode": "100644",
+      "sha256": "ad8549d416e1c284886bf7ccd7a0bb7ea129e30b93fc92322118e9a8e1f7811c"
+    },
+    "published_skills/claude-code/generate-multi-ethnic-taboo-data/agents/openai.yaml": {
+      "mode": "100644",
+      "sha256": "4d455c032b349b5010da1532716c5b776701ffd8c04c22e6f1b53522d056094b"
+    },
+    "published_skills/claude-code/generate-multi-ethnic-taboo-data/references/seed_rules.jsonl": {
+      "mode": "100644",
+      "sha256": "dafb6003e173887c2129fc75e653a2ce8befa73fee594f30b188be65969e8634"
+    },
+    "published_skills/claude-code/generate-multi-ethnic-taboo-data/scripts/check_difficulty_ladder.py": {
+      "mode": "100644",
+      "sha256": "0b74a2794d38856b0fd63ae5a2a4997696f662306af5f36e769bf463e0568800"
+    },
+    "published_skills/claude-code/generate-multi-ethnic-taboo-data/scripts/select_seed_rules.py": {
+      "mode": "100644",
+      "sha256": "10f818d08709231fcaea1abda6bfd86c6e23fff9a5cd3a3f8450350a7da6b488"
+    },
+    "published_skills/claude-code/generate-multi-ethnic-taboo-data/scripts/validate_samples.py": {
+      "mode": "100644",
+      "sha256": "ea51bb366c6e1d07000cc4e85375647f7ca5fe127ff304c8247e673cd5a12869"
+    },
+    "published_skills/codex/generate-multi-ethnic-taboo-data/SKILL.md": {
+      "mode": "100644",
+      "sha256": "37f108f94ac6b8a3b74378d45ddb9931d6e1bf9d1d58a9cca9fac5211fde70e7"
+    },
+    "published_skills/codex/generate-multi-ethnic-taboo-data/agents/openai.yaml": {
+      "mode": "100644",
+      "sha256": "4d455c032b349b5010da1532716c5b776701ffd8c04c22e6f1b53522d056094b"
+    },
+    "published_skills/codex/generate-multi-ethnic-taboo-data/references/seed_rules.jsonl": {
+      "mode": "100644",
+      "sha256": "dafb6003e173887c2129fc75e653a2ce8befa73fee594f30b188be65969e8634"
+    },
+    "published_skills/codex/generate-multi-ethnic-taboo-data/scripts/check_difficulty_ladder.py": {
+      "mode": "100644",
+      "sha256": "0b74a2794d38856b0fd63ae5a2a4997696f662306af5f36e769bf463e0568800"
+    },
+    "published_skills/codex/generate-multi-ethnic-taboo-data/scripts/select_seed_rules.py": {
+      "mode": "100644",
+      "sha256": "10f818d08709231fcaea1abda6bfd86c6e23fff9a5cd3a3f8450350a7da6b488"
+    },
+    "published_skills/codex/generate-multi-ethnic-taboo-data/scripts/validate_samples.py": {
+      "mode": "100644",
+      "sha256": "ea51bb366c6e1d07000cc4e85375647f7ca5fe127ff304c8247e673cd5a12869"
+    },
+    "pyproject.toml": {
+      "mode": "100644",
+      "sha256": "8c232b4d2cbabf4e32a917b90a83567c01bce788a2a8cdd84f9cb97e0fe5d312"
+    },
+    "release_checks.json": {
+      "mode": "100644",
+      "sha256": "a6940916a5a26594377288f3c654e61f76e51c743f1b1eb9ef4c82fd924a89e7"
     },
     "requirements-ml.txt": {
       "mode": "100644",
@@ -36,6 +125,98 @@
     "requirements.txt": {
       "mode": "100644",
       "sha256": "e0ec5b222cc3394425a7c4ee719b57516371651444eb088f76ad5793c6d6a2c1"
+    },
+    "scripts/benchmark_throughput.py": {
+      "mode": "100644",
+      "sha256": "425eab285b8ac927021b2f4952c32f2a1713642031942d32005dc50285a192c3"
+    },
+    "scripts/build_seed_fineweb_mixed_dataset.py": {
+      "mode": "100644",
+      "sha256": "c6cdcd9f14dbb8cac17e3c96e723e813626b09aa2abff2331632dfa0f942f9e0"
+    },
+    "scripts/download_hf_benchmarks.py": {
+      "mode": "100644",
+      "sha256": "4231e445412bcf9a86a93a7521964cd59948a45d1615d6962c96c94487ee5d19"
+    },
+    "scripts/download_sensitive_wordlists.py": {
+      "mode": "100644",
+      "sha256": "84626a334317c14ea3de0f16a304e0e773a6ca2f1aa2ecc75b4c233e828d793b"
+    },
+    "scripts/download_third_datasets.sh": {
+      "mode": "100644",
+      "sha256": "411e6b35a2201cf9966fff90dbcaf06e379dca310901f108f99cd8885306d357"
+    },
+    "scripts/eval_llama_guard4_official_binary.py": {
+      "mode": "100644",
+      "sha256": "1b2b4199d8ab210c1ea381532781fe32225535101f583da64f6f0db223ba509f"
+    },
+    "scripts/eval_llama_guards_binary.py": {
+      "mode": "100644",
+      "sha256": "157c54f289fce6326c9f572e6c182e3da4af3b706e0af1bc5639387be69e89bd"
+    },
+    "scripts/eval_ngram_neuron_cascade.py": {
+      "mode": "100644",
+      "sha256": "d3f1db18529412c6886b8a778a25391131ef8364890f43781b5c63b2cbddf80f"
+    },
+    "scripts/eval_oss_safeguard_binary.py": {
+      "mode": "100644",
+      "sha256": "a33296bde8f82f61514dd61a30373aea1801d801c72221ef566fa450d50dd235"
+    },
+    "scripts/eval_oss_safeguard_vllm_api.py": {
+      "mode": "100644",
+      "sha256": "10ac78afc8efdbc5f9297aba4d50700f42a0e2fef89f90f509370bf586887186"
+    },
+    "scripts/export_misclassified_cases.py": {
+      "mode": "100644",
+      "sha256": "e126c96102dda25d994a5be00f1ce5beb4f917a6c5d7e6e15f1d854d19e37d3f"
+    },
+    "scripts/generate_dataset_v0_1.py": {
+      "mode": "100755",
+      "sha256": "ed630c6279f3302ffa3fba4b2ece1292a6a811a3e250a1745147ff13694d5b7e"
+    },
+    "scripts/generate_dataset_v2.py": {
+      "mode": "100644",
+      "sha256": "0592f5edde77b9171548877f440ff82607606a727d89824cc3f0bf5db70137dd"
+    },
+    "scripts/generate_neutral_minimal_pairs.py": {
+      "mode": "100644",
+      "sha256": "79c6ccc2a0e5eb7525f7b9827bff825b07f2828f0db250316974751e1fedfc4f"
+    },
+    "scripts/generate_story_style_samples.py": {
+      "mode": "100644",
+      "sha256": "b52aaec71b6e6a5667bc5e71918c9329901f0a427ad0802a36951bf545b32294"
+    },
+    "scripts/mem_scripts.sh": {
+      "mode": "100644",
+      "sha256": "d78a038904c4f98814bde74ed7a58538971e873bf22fa29a1cb115f744373262"
+    },
+    "scripts/mine_ngram_keyword_rules.py": {
+      "mode": "100644",
+      "sha256": "360da87896ba1c555f0417201dabc91a0e51d78bf9210cf8e1e5076d340eb0f1"
+    },
+    "scripts/plot_dataset_pie.py": {
+      "mode": "100644",
+      "sha256": "323f6eb36157238162dee4ac003f3f2593a0474335696f9bd50a366272c87c6a"
+    },
+    "scripts/prepare_multi_ethnic_benchmark.py": {
+      "mode": "100644",
+      "sha256": "8d7b475176a511617280012dedadbab993663fb2b1096efced509ccd49846963"
+    },
+    "scripts/run_multi_ethnic_jobs.py": {
+      "mode": "100644",
+      "sha256": "77b6e0dacf9d143adea0c205bca5164148f321a43fd2c511e5d58b4174e612c9"
+    },
+    "scripts/score_partial_per_sample.py": {
+      "mode": "100644",
+      "sha256": "a1e05418e81cdde32aa0bc5e24aa3573c6b0648055dd8f9783c7c6c14be2fb1e"
+    },
+    "scripts/shuffle_dataset_v0_1_to_v0_1_1.py": {
+      "mode": "100644",
+      "sha256": "5cbf26cac7f08e964ebc9fd46036a141c03d81cb70219fa2d16522de48ae2922"
+    },
+    "scripts/translate_neutral_pairs.py": {
+      "mode": "100644",
+      "sha256": "67899842471b47230c6e8b448b25f09ac19fa4d4c894fed97496add70621c866"
     },
     "src/filterguard/__init__.py": {
       "mode": "100644",
@@ -105,33 +286,65 @@
       "mode": "100644",
       "sha256": "a1e2fe76af32d2e50091e4d62ab6fa23884cc3b0ee23e37347b8729d6938d72f"
     },
+    "src/fineweb_edu_baseline_abnormal.py": {
+      "mode": "100644",
+      "sha256": "c6952e579d14e62f5b76a264c550104db8f20d846f9c5c26acf695d17f0ed050"
+    },
+    "src/hybrid_keyword_fineweb_neuron_abnormal.py": {
+      "mode": "100644",
+      "sha256": "a0e36d2ddcee8dcf2a52cd977ba62e00e60369e5a4d74d3eca0a020f1a700187"
+    },
+    "src/hybrid_keyword_neuron_abnormal.py": {
+      "mode": "100644",
+      "sha256": "2ca5eaed414eba099a8dc313ada7472e989d8c4f2d95f73379b04626ee70423b"
+    },
+    "src/keyword_baseline_abnormal.py": {
+      "mode": "100644",
+      "sha256": "f034a8e022a768a180e56267c036c5028f86a758cf02deeb352557d8fae33d76"
+    },
+    "src/metric.py": {
+      "mode": "100644",
+      "sha256": "3222d60bffebb41b2fdac9454647fbab43e59e6507c887083b8a65045933948f"
+    },
+    "src/neuron_baseline_abnormal.py": {
+      "mode": "100644",
+      "sha256": "513fc51045484013e49fa64c1dae7784e67496cbda1621272279c19ac9938d04"
+    },
+    "src/neuron_layerwise_earlyexit_abnormal.py": {
+      "mode": "100644",
+      "sha256": "0c5c1dc3b93efce75059efd8aba934df1528024badb35d6583ee636a15bde068"
+    },
+    "src/neuron_risk_multiclass_abnormal.py": {
+      "mode": "100644",
+      "sha256": "901d781bbd87bc7c70e5ae6eec422d5812b5614c91e8f86803c6112107669119"
+    },
+    "src/token_anomaly_baseline_abnormal.py": {
+      "mode": "100644",
+      "sha256": "bd3018c41f5c037de07524fa66b1be88418b85b5db40a282c9b82f4573fefc71"
+    },
     "tests/test_cli_api.py": {
       "mode": "100644",
-      "sha256": "16ddbc5560a45952e854618b2ee70674e563c6eb819246b55704537bc0cd69a4"
+      "sha256": "3ef1ad4eaa8a165857ddd1acbea3a4619b4ba6d596f6f07d7de221530b8bd950"
     },
     "tests/test_keyword_wordlist_manifest.py": {
       "mode": "100644",
       "sha256": "d8d0fca1566b405b63bbca49dcc21249d8ec32fb20b997056753e51c3daf72b4"
     },
-    "tools/check_cpu.py": {
+    "tests/test_risk_multiclass.py": {
       "mode": "100644",
-      "sha256": "be65f4258857d1b055526135aa0f74f227755f8ef8b564f2a90b316f19d27b1f"
+      "sha256": "cad3c5bee8c04dd379de42300fbf472630a94c51b34c88db9025724ff7d14a96"
     },
-    "tools/filterguard_cli.py": {
+    "tests/test_token_anomaly_workflow.py": {
       "mode": "100644",
-      "sha256": "2e8f4d4c8e239ff5685ff83427c219124ef2d5ece2ca144429adf88a102a02eb"
+      "sha256": "807842b76cd9ae1077eb300cd3826b45db36a083dad13cba828905396d623908"
     },
-    "tools/release_smoke.json": {
+    "tools/release_check.py": {
       "mode": "100644",
-      "sha256": "a451f894b91c1e04b7f3e82369756f1a17ca49d9e2202aeaabb76280d48b5eb7"
-    },
-    "tools/release_smoke.py": {
-      "mode": "100644",
-      "sha256": "7ceeda0ab2eaabf5c14262f018988f231753ffc1bbb7934adff5e3cd61eaeb6e"
+      "sha256": "6b370aab6b096a1df48e44995198d6d46c0e54ac5f7cf371a327b8670264f5f0"
     }
   },
   "project": "NGAI-LLMSafeContent/Project_2_Anomaly_Data_Identification",
   "schema": 1,
   "source_commit": "e2cc59e1ac70f6ae9859938b5ea65f6102ea1d5b",
-  "whitelist_sha256": "ebc359b2dcc202a211cbed57c402685b1942be172f727a9c1226340e66da065b"
+  "whitelist_sha256": "044ca585107882de3c87290df193a52c287b2b3f952434dfc19aeaca5033d7e9"
 }

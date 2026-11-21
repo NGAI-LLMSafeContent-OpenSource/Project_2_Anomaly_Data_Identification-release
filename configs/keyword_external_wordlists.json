@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "description": "Optional third-party keyword wordlists for high-precision keyword filtering. Terms are stored under configs/external_sensitive_wordlists/.",
+  "wordlists": [
+    {
+      "id": "local_dsojevic_profanity_en",
+      "enabled": true,
+      "category": "sexual_profanity",
+      "source": "dsojevic/profanity-list",
+      "license_file": "configs/dsojevic_profanity_list_LICENSE.txt",
+      "local_path": "configs/dsojevic_profanity_en.txt",
+      "weight": 1,
+      "match": "auto"
+    },
+    {
+      "id": "ldnoobw_en",
+      "enabled": true,
+      "category": "sexual_profanity",
+      "source": "LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words",
+      "url": "https://raw.githubusercontent.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words/master/en",
+      "local_path": "configs/external_sensitive_wordlists/ldnoobw/en.txt",
+      "weight": 1,
+      "match": "auto"
+    },
+    {
+      "id": "ldnoobw_zh",
+      "enabled": true,
+      "category": "sexual_profanity",
+      "source": "LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words",
+      "url": "https://raw.githubusercontent.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words/master/zh",
+      "local_path": "configs/external_sensitive_wordlists/ldnoobw/zh.txt",
+      "weight": 1,
+      "match": "substring"
+    },
+    {
+      "id": "fwwdn_illicit_weapons_explosives_zh",
+      "enabled": true,
+      "category": "explicit_illegal",
+      "source": "fwwdn/sensitive-stop-words",
+      "url": "https://raw.githubusercontent.com/fwwdn/sensitive-stop-words/master/%E6%B6%89%E6%9E%AA%E6%B6%89%E7%88%86%E8%BF%9D%E6%B3%95%E4%BF%A1%E6%81%AF%E5%85%B3%E9%94%AE%E8%AF%8D.txt",
+      "local_path": "configs/external_sensitive_wordlists/fwwdn/illicit_weapons_explosives_zh.txt",
+      "weight": 5,
+      "match": "substring"
+    },
+    {
+      "id": "fwwdn_sexual_zh",
+      "enabled": true,
+      "category": "sexual_profanity",
+      "source": "fwwdn/sensitive-stop-words",
+      "url": "https://raw.githubusercontent.com/fwwdn/sensitive-stop-words/master/%E8%89%B2%E6%83%85%E7%B1%BB.txt",
+      "local_path": "configs/external_sensitive_wordlists/fwwdn/sexual_zh.txt",
+      "weight": 2,
+      "match": "substring"
+    },
+    {
+      "id": "fwwdn_political_zh",
+      "enabled": false,
+      "category": "political_sensitive",
+      "source": "fwwdn/sensitive-stop-words",
+      "url": "https://raw.githubusercontent.com/fwwdn/sensitive-stop-words/master/%E6%94%BF%E6%B2%BB%E7%B1%BB.txt",
+      "local_path": "configs/external_sensitive_wordlists/fwwdn/political_zh.txt",
+      "weight": 1,
+      "match": "substring",
+      "disabled_reason": "High false-positive risk for ordinary political or historical discussion."
+    }
+  ]
+}
